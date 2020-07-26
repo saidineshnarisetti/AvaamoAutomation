@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Avaamo automation testing(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://c6.avaamo.com/web_channels/444588bc-92fe-477f-87c1-88a92946346a/demo.html"/>
+    <classes>
+      <class name="com.avaamo.Geturl">
+        <methods>
+          <include name="Url"/>
+          <include name="opendriver"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.avaamo.Geturl -->
+      <class name="com.avaamo.Menuoptions">
+        <methods>
+          <include name="opendriver"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyNewTest"/>
+          <include name="verifyTestBot"/>
+          <include name="Testagentpopup"/>
+        </methods>
+      </class> <!-- com.avaamo.Menuoptions -->
+      <class name="com.avaamo.Titlevalidation">
+        <methods>
+          <include name="opendriver"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="Testagentpopup"/>
+        </methods>
+      </class> <!-- com.avaamo.Titlevalidation -->
+    </classes>
+  </test> <!-- Avaamo automation testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Avaamo automation testing">
-		<!-- <parameter name="browser" value="Chrome" /> -->
-		<parameter name="browser" value="Firefox" />
+		<parameter name="browser" value="Chrome" />
+		<!-- <parameter name="browser" value="Firefox" /> -->
 		<parameter name="url"
 			value="https://c6.avaamo.com/web_channels/444588bc-92fe-477f-87c1-88a92946346a/demo.html" />
 		<classes>
